@@ -17,9 +17,9 @@ class CabinLevelFactory extends Factory
     public function definition(): array
     {
         return [
-            'name'        => fake()->streetName(),
+            'name' => fake()->streetName(),
             'description' => fake()->paragraph(2, false),
-            'color'       => fake()->hexColor(),
+            'color' => fake()->hexColor(),
         ];
     }
 }
